@@ -1,0 +1,27 @@
+:root {
+    --backg: #EAC926;
+    --fuent: #03264C;
+    --Celeste: #1259c3;
+    --GrisOsc: #666;
+    --GrisCla: #ebebeb;
+    --verd: #39b54a;
+}
+
+body {
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h3 {
+    font-size: 24px
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+
+
