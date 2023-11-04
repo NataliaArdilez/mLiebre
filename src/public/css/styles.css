@@ -13,12 +13,29 @@ body {
     
 }
 
+h2 {
+    font-size: 2em;
+    line-height: 10px;
+}
+
 h3 {
     font-size: 24px
 }
 
+
+
 p {
     font-size: 16px;
+}
+
+.burger-menu {
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
 }
 
 
