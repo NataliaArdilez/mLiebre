@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --backg: #EAC926;
     --fuent: #03264C;
@@ -10,7 +14,66 @@
 body {
     background-color:#EAC926;
     font-family: 'Roboto', sans-serif;
-    
+    color: black
+}
+
+main {
+    text-align: center;
+    width: 90vw;
+    padding-top: 2vw;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contenedor01{
+    background-color: #ebebeb;
+    padding: 2px;
+    text-align:center;
+    margin-bottom: 10vw;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.contenedor02{
+    background-color: #ebebeb;
+    padding: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 90%
+}
+
+.contenedormini {
+    margin: 10px;
+    width: 80%;
+    height: 35%;
+    background-color:white;
+    padding: 15px;
+    text-align: left;
+    border: solid 1px #ebebeb;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.precio {
+    margin-top: 2%;
+    color: black;
+    border-top: solid 1px #ebebeb;
+    font-size: 18px;
+}
+
+.descuento {
+    color: var(--verd);
+    margin: 1px;
+    font-size: 16px;
+}
+
+.nombreProd{
+    color:var(--GrisOsc);
+    font-size: 16px;
 }
 
 h2 {
@@ -22,20 +85,44 @@ h3 {
     font-size: 24px
 }
 
-
-
-p {
-    font-size: 16px;
+.burguerContenedor {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-.burger-menu {
+.fa-bars {
     color:white;
     font-size: 50px;
     text-align: center;
+    background-color:#1259c3;
+    width: 70px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin-top: 10px;
 }
 
 .foot {
     text-align: center;
+}
+
+.enlaces{
+    color: #000000;
+    text-decoration: none
+
+    
+}
+
+
+.fa-truck{
+    color:var(--verd);
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: solid 0.5px #39b54a;
 }
 
 
