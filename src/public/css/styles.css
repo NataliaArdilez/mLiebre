@@ -154,23 +154,23 @@ h3 {
 }
 
 /*Mobile*/
-@media(max-width: 360) {
+@media(max-width: 360px) {
 .hiddenMobile {
     display:none;
 }
 }
  /*Navegacion en tablets*/
-@media(min-width:361)and (max-width:768){ 
+@media(min-width:361px)and (max-width:768px) { 
 
 }
 /*Desktop*/
-@media (min-width:769)and (max-width:1439) {
+@media (min-width:769px)and (max-width:1439px) {
 .hidden {
     display: none
 }
 }
 /**/
-@media(min-width:1440){
+@media(min-width:1440px){
 
 }
 
