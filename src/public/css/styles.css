@@ -153,10 +153,40 @@ h3 {
     border: solid 0.5px #39b54a;
 }
 
+.Superior {
+    display:flex;
+    justify-content: space-around;
+}
+
+.hiddenMobile {
+    display:flex;
+    justify-content: space-around;
+}
+
+.IntermedioP1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.IntermedioP2 {
+    display:flex;
+    justify-content: space-around;
+}
+
 /*Mobile*/
 @media(max-width: 360px) {
 .hiddenMobile {
     display:none;
+}
+
+.Superior {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fa-hand-holding-dollar {
+    width: 100%;
 }
 }
  /*Navegacion en tablets*/
