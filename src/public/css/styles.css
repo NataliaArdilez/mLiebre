@@ -35,6 +35,8 @@ main {
     justify-content: center;
     margin: 10px auto;
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contenedor02{
@@ -44,7 +46,11 @@ main {
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-    width: 90%
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
 .contenedormini {
@@ -138,9 +144,9 @@ h3 {
 
 .enlaces{
     color: #000000;
-    text-decoration: none
-
-    
+    text-decoration: none;
+    margin: 10px;
+    border: 1px; 
 }
 
 
