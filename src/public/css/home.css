@@ -178,6 +178,9 @@ h3 {
     justify-content: space-around;
 }
 
+body {
+    background-color: var(--backg);
+}
 .formRegister {
     display: flex;
     flex-direction: column;
