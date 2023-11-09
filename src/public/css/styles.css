@@ -165,7 +165,7 @@ h3 {
 }
 /*Desktop*/
 @media (min-width:769)and (max-width:1439) {
-.hiddenBurguer {
+.hidden {
     display: none
 }
 }
