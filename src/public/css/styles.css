@@ -85,6 +85,34 @@ h3 {
     font-size: 24px
 }
 
+.Barra{
+    width: 90%;
+}
+.contenedor-de-barra{
+    text-align: left;
+    width: 30vw;
+    height: 20px;
+    align-items: center;
+}
+
+.contenedor-de-barra input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.contenedor-de-barra button {
+    background-color: var(--GrisCla);
+    color: var(--GrisOsc);
+    border: none;
+    padding: 5px 10 px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    text-align: left;
+}
+
 .burguerContenedor {
     align-items: center;
     justify-content: center;
@@ -125,7 +153,26 @@ h3 {
     border: solid 0.5px #39b54a;
 }
 
+/*Mobile*/
+@media(max-width: 360) {
+.hiddenMobile {
+    display:none;
+}
+}
+ /*Navegacion en tablets*/
+@media(min-width:361)and (max-width:768){ 
 
+}
+/*Desktop*/
+@media (min-width:769)and (max-width:1439) {
+.hiddenBurguer {
+    display: none
+}
+}
+/**/
+@media(min-width:1440){
+
+}
 
 
 
