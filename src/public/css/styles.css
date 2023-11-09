@@ -23,6 +23,7 @@ main {
     padding-top: 2vw;
     justify-content: center;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .contenedor01{
@@ -155,17 +156,17 @@ h3 {
 
 .Superior {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hiddenMobile {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .IntermedioP1 {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .IntermedioP2 {
