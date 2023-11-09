@@ -36,7 +36,6 @@ main {
     margin: 10px auto;
     width: 90%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .contenedor02{
@@ -48,7 +47,6 @@ main {
     margin: 10px auto;
     width: 90%;
     display: flex;
-    flex-wrap: wrap;
 
 
 }
@@ -56,7 +54,7 @@ main {
 .contenedormini {
     margin: 10px;
     width: 80%;
-    height: 35%;
+    height: 80%;
     background-color:white;
     padding: 15px;
     text-align: left;
@@ -188,8 +186,7 @@ h3 {
 
 .Superior {
     display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .fa-hand-holding-dollar {
@@ -206,10 +203,7 @@ h3 {
     display: none
 }
 }
-/**/
-@media(min-width:1440px){
 
-}
 
 
 
