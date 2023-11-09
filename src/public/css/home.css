@@ -188,6 +188,14 @@ body {
     padding: 20px 15px;
 }
 
+.loginContenedor {
+    background-color: var(--GrisCla);
+    flex-direction: column;
+    background-color: var(--GrisCla);
+    padding: 20px 15px;
+
+}
+
 /*Mobile*/
 @media(max-width: 360px) {
 .hiddenMobile {
